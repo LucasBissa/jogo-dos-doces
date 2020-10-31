@@ -1,0 +1,158 @@
+ *{
+  margin: 0;
+  padding: 0;
+ }
+
+ img{
+  width: 60px;
+  height: 60px;
+ }
+
+ #container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .quadrado{
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation :"none";
+ }
+
+ .linha{
+  display: flex;
+  background-color:rgba(137,104,205,0.7);
+ }
+
+ #campo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image:url("wall.jpg");
+ }
+
+ #btnRecomecar{
+  padding: 10px;
+ }
+
+@keyframes movedown {
+	0% {
+		transform: translateY(-70px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes moveup {
+	0% {
+		transform: translateY(70px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes moveleft {
+	0% {
+		transform: translateX(70px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes moveright {
+	0% {
+		transform: translateX(-70px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes down1 {
+	0% {
+		transform: translateY(-70px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes down2 {
+	0% {
+		transform: translateY(-140px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes down3 {
+	0% {
+		transform: translateY(-210px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes down4 {
+	0% {
+		transform: translateY(-280px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes down5 {
+	0% {
+		transform: translateY(-350px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes down6 {
+	0% {
+		transform: translateY(-420px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes down7 {
+	0% {
+		transform: translateY(-490px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes down8 {
+	0% {
+		transform: translateY(-560px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+
+@keyframes down9 {
+	0% {
+		transform: translateY(-630px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+
+}
